@@ -228,9 +228,10 @@ nav a:focus, nav a:hover, nav a:active, nav a.active {
     h1 {
         display: inline-block;
         box-sizing: border-box;
+        text-align: left;
         font-size: 37.5px;
         width: calc(2*100%/3);
-        padding: 0;
+        padding: 1% 4%;
     }
     /* nav buttons */
     nav {
