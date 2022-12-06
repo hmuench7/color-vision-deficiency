@@ -6,69 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Color Vision Deficiency</title>
+    <title>Color Vision Deficiency Overview</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
         <h1>Color Vision Deficiency</h1>
+        <nav>
+            <a href="index.html" class="active">What is Color Vision Deficiency?</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="dynamic.html">Accessibility</a>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">What is Color Vision Deficiency?</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="dynamic.html">Accessibility</a></li>
-        </ul>
-    </nav>
     <main id="main">
         <h2>What is Color Vision Deficiency?</h2>
         <p>
             Color vision deficiency is (to be continued...)
         </p>
-        <h2>Different Kinds of Color Vision Deficiency</h2>
+        <h2>Kinds of Color Vision Deficiency</h2>
         <div class="flexGallery">
-            <div class="flexItem">
+            <div class="flexItem" tabindex="0">
                 <h3>Original Image (Trichromacy)</h3>
-                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+                <img src="images/filtered/colored_pencils_normal.png" alt="Trichromacy view of four colored pencils with two colors at each end"
+                    data-filter="trichromacy">
             </div>
-            <div class="flexItem">
+            <div class="flexItem" tabindex="0">
                 <h3>Red-Weak (Protanomaly)</h3>
-                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+                <img src="images/filtered/colored_pencils_protanomaly.png" alt="Protanomaly view of four colored pencils with two colors at each end"
+                    data-filter="protanomaly">
             </div>
-            <div class="flexItem">
+            <div class="flexItem" tabindex="0">
                 <h3>Green-Weak (Deuteranomaly)</h3>
-                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+                <img src="images/filtered/colored_pencils_deuteranomaly.png" alt="Deuteranomaly view of four colored pencils with two colors at each end"
+                    data-filter="deuteranomaly">
             </div>
-            <div class="flexItem">
+            <div class="flexItem" tabindex="0">
                 <h3>Blue-Weak (Tritanomaly)</h3>
-                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+                <img src="images/filtered/colored_pencils_tritanomaly.png" alt="Tritanomaly view of four colored pencils with two colors at each end"
+                    data-filter="tritanomaly">
             </div>
-            <div class="flexItem">
+            <div class="flexItem" tabindex="0">
                 <h3>Red-Blind (Protanopia)</h3>
-                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+                <img src="images/filtered/colored_pencils_protanopia.png" alt="Protanopia view of four colored pencils with two colors at each end"
+                    data-filter="protanopia">
             </div>
-            <div class="flexItem">
+            <div class="flexItem" tabindex="0">
                 <h3>Green-Blind (Deuteranopia)</h3>
-                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+                <img src="images/filtered/colored_pencils_deuteranopia.png" alt="Deuteranopia view of four colored pencils with two colors at each end"
+                    data-filter="deuteranopia">
             </div>
-            <div class="flexItem">
+            <div class="flexItem" tabindex="0">
                 <h3>Blue-Blind (Tritanopia)</h3>
-                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+                <img src="images/filtered/colored_pencils_tritanopia.png" alt="Tritanopia view of four colored pencils with two colors at each end"
+                    data-filter="tritanopia">
             </div>
-            <div class="flexItem">
+            <div class="flexItem" tabindex="0">
                 <h3>Monochromacy (Achromatopsia)</h3>
-                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+                <img src="images/filtered/colored_pencils_achromatopsia.png" alt="Achromatopsia view of four colored pencils with two colors at each end"
+                    data-filter="achromatopsia">
             </div>
             <div class="flexItem">
-                <h3>Blue Cone Monochromacy</h3>
-                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+                <h3>Blue Cone Monochromacy (Achromatomaly)</h3>
+                <img src="images/filtered/colored_pencils_achromatomaly.png" alt="Achromatomaly view of four colored pencils with two colors at each end"
+                 data-filter="achromatomaly">
             </div>
         </div>
     </main>
     <footer>
-        <a href="#main">Back to Top</a>
+        Created by Hunter Muench
     </footer>
-    <script src="js/filters.js"></script>
 </body>
 </html>

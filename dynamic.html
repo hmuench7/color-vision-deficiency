@@ -6,35 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Color Vision Deficiency</title>
+    <title>Color Vision Deficiency Accessibility Demonstration</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
         <h1>Color Vision Deficiency</h1>
+        <nav>
+            <a href="index.html">What is Color Vision Deficiency?</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="dynamic.html" class="active">Accessibility</a>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">What is Color Vision Deficiency?</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="dynamic.html">Accessibility</a></li>
-        </ul>
-    </nav>
     <main id="main">
-        <h2>Demonstration of an Accessible Website for People with Color Vision Deficiency</h2>
-        <h3>Select what kind of color vision deficiency you wish to account for</h3>
-        <p>Either a radio selector or dropdown menu will be here</p>
+        <h2>See Your Photos with Different Color Vision Deficiencies</h2>
+        <h3>Select what kind of color vision deficiency you wish to use</h3>
+        <p>You can use the <a href="https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg" target="_blank">Colorblindly Chrome extension</a> to view the entire page through different filters.</p>
+        <p>You can also go to <a href="https://www.color-blindness.com/coblis-color-blindness-simulator/" target="_blank">the COBLIS Color Blindness Simulator</a> to upload your own images and see them with the different filters.</p>
         <div class="flexGallery">
-            <img class="flexItem" src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
-            <img class="flexItem" src="images/color_gradient.jpg" alt="color gradient with black, white, and rainbow">
-            <img class="flexItem" src="images/purple_flower.jpg" alt="small purple flower with blurry green background">
-            <img class="flexItem" src="images/colorful_forest.jpg" alt="foggy autumn forest with red and orange leaves on the ground">
+            <div class="flexItem">
+                <img src="images/colored_pencils.jpg" alt="Four colored pencils with two colors at each end">
+            </div>
+            <div class="flexItem">
+                <img src="images/color_gradient.jpg" alt="color gradient with black, white, and rainbow">
+            </div>
+            <div class="flexItem">
+                <img src="images/purple_flower.jpg" alt="small purple flower with blurry green background">
+            </div>
+            <div class="flexItem">
+                <img src="images/colorful_forest.jpg" alt="foggy autumn forest with red and orange leaves on the ground">
+            </div>
         </div>
     </main>
     <footer>
-        <a href="#main">Back to Top</a>
+        Created by Hunter Muench
     </footer>
-    <script src="js/filters.js"></script>
 </body>
 </html>
